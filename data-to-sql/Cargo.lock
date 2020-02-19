@@ -16,4 +16,4 @@ dependencies = [
 [[package]]
 name = "bitflags"
 version = "1.3.2"
-source = "registry+https:/
+source = "registry+https://github.com/rust-la
