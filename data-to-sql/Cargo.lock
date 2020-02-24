@@ -17,4 +17,4 @@ dependencies = [
 name = "bitflags"
 version = "1.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bef38d45163c2f1dde094a7dfd33ccf595c9290
+checksum = "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc
