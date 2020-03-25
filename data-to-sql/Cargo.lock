@@ -31,4 +31,5 @@ dependencies = [
  "serde",
 ]
 
-[[pac
+[[package]]
+name = "c
