@@ -34,4 +34,4 @@ dependencies = [
 [[package]]
 name = "cfg-if"
 version = "1.0.0"
-source
+source = "registry+https:/
