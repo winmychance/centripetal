@@ -47,3 +47,7 @@ dependencies = [
  "csv-core",
  "itoa",
  "ryu",
+ "serde",
+]
+
+[[p
