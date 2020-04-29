@@ -50,4 +50,5 @@ dependencies = [
  "serde",
 ]
 
-[[p
+[[package]]
+name 
