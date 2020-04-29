@@ -51,4 +51,5 @@ dependencies = [
 ]
 
 [[package]]
-name = "csv-c
+name = "csv-core"
+version =
