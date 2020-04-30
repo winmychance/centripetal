@@ -53,4 +53,4 @@ dependencies = [
 [[package]]
 name = "csv-core"
 version = "0.1.10"
-so
+source = "reg
