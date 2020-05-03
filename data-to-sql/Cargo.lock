@@ -54,4 +54,4 @@ dependencies = [
 name = "csv-core"
 version = "0.1.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum
+checksum = "2b2466559f260
