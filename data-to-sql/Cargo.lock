@@ -62,4 +62,5 @@ dependencies = [
 [[package]]
 name = "data-to-sql"
 version = "0.1.0"
-depen
+dependencies = [
+ "csv
