@@ -60,4 +60,5 @@ dependencies = [
 ]
 
 [[package]]
-name = "da
+name = "data-to-sql"
+version
