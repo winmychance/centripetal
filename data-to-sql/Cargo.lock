@@ -61,4 +61,5 @@ dependencies = [
 
 [[package]]
 name = "data-to-sql"
-version
+version = "0.1.0"
+depen
