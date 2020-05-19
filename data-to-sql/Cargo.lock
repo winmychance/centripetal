@@ -64,4 +64,8 @@ name = "data-to-sql"
 version = "0.1.0"
 dependencies = [
  "csv",
- "rusqlite
+ "rusqlite",
+ "walkdir",
+]
+
+[[
