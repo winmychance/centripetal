@@ -69,4 +69,5 @@ dependencies = [
 ]
 
 [[package]]
-name = "fallible-iter
+name = "fallible-iterator"
+version = "0.
