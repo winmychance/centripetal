@@ -71,4 +71,4 @@ dependencies = [
 [[package]]
 name = "fallible-iterator"
 version = "0.2.0"
-source = "registry+https://github
+source = "registry+https://github.com/rust-lang
