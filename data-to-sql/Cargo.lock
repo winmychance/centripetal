@@ -70,4 +70,5 @@ dependencies = [
 
 [[package]]
 name = "fallible-iterator"
-version = "0.
+version = "0.2.0"
+source = "regi
