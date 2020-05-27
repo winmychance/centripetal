@@ -72,4 +72,4 @@ dependencies = [
 name = "fallible-iterator"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "444317
+checksum = "4443176a9f2c162692bd3d352
