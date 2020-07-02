@@ -83,4 +83,4 @@ checksum = "7360491ce676a36bf9bb3c56c1aa791658183a54d2744120f27285738d90465a"
 [[package]]
 name = "getrandom"
 version = "0.2.8"
-source = "registry+https://github.com/rust-lang
+source = "registry+https://github.com/rust-lang/crates.io-i
