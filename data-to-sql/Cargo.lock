@@ -92,4 +92,5 @@ dependencies = [
 ]
 
 [[package]]
-name = "hashbrow
+name = "hashbrown"
+versi
