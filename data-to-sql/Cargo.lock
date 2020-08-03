@@ -94,4 +94,4 @@ dependencies = [
 [[package]]
 name = "hashbrown"
 version = "0.12.3"
-source = "regis
+source = "registry+https
