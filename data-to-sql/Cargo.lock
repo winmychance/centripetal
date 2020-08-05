@@ -95,4 +95,4 @@ dependencies = [
 name = "hashbrown"
 version = "0.12.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum 
+checksum = "8a9ee70
