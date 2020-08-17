@@ -102,4 +102,5 @@ dependencies = [
 
 [[package]]
 name = "hashlink"
-version = "
+version = "0.8.1"
+source = "reg
