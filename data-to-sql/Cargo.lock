@@ -100,4 +100,5 @@ dependencies = [
  "ahash",
 ]
 
-[[pa
+[[package]]
+name = "hashli
