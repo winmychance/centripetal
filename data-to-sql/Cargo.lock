@@ -103,4 +103,4 @@ dependencies = [
 [[package]]
 name = "hashlink"
 version = "0.8.1"
-source = "reg
+source = "registry+https://githu
