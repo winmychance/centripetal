@@ -104,4 +104,4 @@ dependencies = [
 name = "hashlink"
 version = "0.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum =
+checksum = "69fe1
