@@ -109,4 +109,4 @@ dependencies = [
  "hashbrown",
 ]
 
-[[p
+[[package]]
