@@ -111,4 +111,5 @@ dependencies = [
 
 [[package]]
 name = "itoa"
-version
+version = "0.4.8"
+source
