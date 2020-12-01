@@ -138,4 +138,5 @@ dependencies = [
 ]
 
 [[package]]
-name 
+name = "memchr"
+v
