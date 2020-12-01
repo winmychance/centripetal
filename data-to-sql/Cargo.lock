@@ -139,4 +139,4 @@ dependencies = [
 
 [[package]]
 name = "memchr"
-v
+version = "2
