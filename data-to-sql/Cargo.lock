@@ -140,4 +140,4 @@ dependencies = [
 [[package]]
 name = "memchr"
 version = "2.5.0"
-source = "r
+source = "registry+http
