@@ -141,4 +141,4 @@ dependencies = [
 name = "memchr"
 version = "2.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksu
+checksum = "2dffe52ec
