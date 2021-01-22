@@ -169,4 +169,5 @@ checksum = "01e213bc3ecb39ac32e81e51ebe31fd888a940515173e3a18a35f8c6e896422a"
 dependencies = [
  "bitflags",
  "fallible-iterator",
- "fallible-streaming-itera
+ "fallible-streaming-iterator",
+ "hashlink"
