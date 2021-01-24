@@ -170,4 +170,5 @@ dependencies = [
  "bitflags",
  "fallible-iterator",
  "fallible-streaming-iterator",
- "hashlink"
+ "hashlink",
+ "libsqlite3
