@@ -171,4 +171,5 @@ dependencies = [
  "fallible-iterator",
  "fallible-streaming-iterator",
  "hashlink",
- "libsqlite3
+ "libsqlite3-sys",
+ "smallvec
