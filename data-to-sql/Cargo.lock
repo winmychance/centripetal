@@ -175,4 +175,5 @@ dependencies = [
  "smallvec",
 ]
 
-[[packag
+[[package]]
+name = "ryu
