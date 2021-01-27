@@ -177,4 +177,4 @@ dependencies = [
 
 [[package]]
 name = "ryu"
-versio
+version = "1.0.12"
