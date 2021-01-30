@@ -179,4 +179,4 @@ dependencies = [
 name = "ryu"
 version = "1.0.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum 
+checksum = "7b4b9743
