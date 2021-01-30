@@ -178,4 +178,5 @@ dependencies = [
 [[package]]
 name = "ryu"
 version = "1.0.12"
-source = "registry+https://github.com/rust-lang/crat
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum 
