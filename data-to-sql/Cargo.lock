@@ -190,4 +190,6 @@ dependencies = [
  "winapi-util",
 ]
 
-[[package
+[[package]]
+name = "serde"
+versi
