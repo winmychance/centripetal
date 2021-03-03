@@ -192,4 +192,5 @@ dependencies = [
 
 [[package]]
 name = "serde"
-versi
+version = "1.0.152"
+so
