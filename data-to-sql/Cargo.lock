@@ -193,4 +193,4 @@ dependencies = [
 [[package]]
 name = "serde"
 version = "1.0.152"
-source = "registry+https://github.com/rust
+source = "registry+https://github.com/rust-lang/crates.io
