@@ -199,4 +199,4 @@ checksum = "bb7d1f0d3021d347a83e556fc4683dea2ea09d87bccdf88ff5c12545d89d5efb"
 [[package]]
 name = "smallvec"
 version = "1.10.0"
-source = "reg
+source = "registry+https://g
