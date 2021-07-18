@@ -225,4 +225,6 @@ dependencies = [
  "winapi-util",
 ]
 
-[[packa
+[[package]]
+name = "wasi"
+ve
