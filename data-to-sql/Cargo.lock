@@ -228,4 +228,5 @@ dependencies = [
 [[package]]
 name = "wasi"
 version = "0.11.0+wasi-snapshot-preview1"
-source = "registry+https://github.com/rust-lang/crates.io-i
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9
