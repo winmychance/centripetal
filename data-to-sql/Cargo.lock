@@ -242,4 +242,4 @@ dependencies = [
 ]
 
 [[package]]
-name = "w
+name = "winapi-i686
