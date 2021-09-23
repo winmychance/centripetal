@@ -244,4 +244,4 @@ dependencies = [
 [[package]]
 name = "winapi-i686-pc-windows-gnu"
 version = "0.4.0"
-source = "registr
+source = "registry+https://github
