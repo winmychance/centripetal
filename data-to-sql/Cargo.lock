@@ -250,4 +250,5 @@ checksum = "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6"
 [[package]]
 name = "winapi-util"
 version = "0.1.5"
-source = "registry+https://github.com/rust-lang/crates.io-inde
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = 
