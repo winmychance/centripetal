@@ -256,4 +256,5 @@ dependencies = [
  "winapi",
 ]
 
-[[pack
+[[package]]
+name = "winap
