@@ -257,4 +257,5 @@ dependencies = [
 ]
 
 [[package]]
-name = "winapi-x86_64-pc-window
+name = "winapi-x86_64-pc-windows-gnu"
+versi
