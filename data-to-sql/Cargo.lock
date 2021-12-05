@@ -259,4 +259,4 @@ dependencies = [
 [[package]]
 name = "winapi-x86_64-pc-windows-gnu"
 version = "0.4.0"
-source = "registry+https://githu
+source = "registry+https://github.com/rust-lang/crates
