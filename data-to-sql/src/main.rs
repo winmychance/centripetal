@@ -1,2 +1,2 @@
 use csv;
-use rusqlite::{
+use rusqlite::{Connection, params};
