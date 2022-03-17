@@ -8,4 +8,5 @@ fn main() {
     let parent_path = parent_path_obj.to_str().expect("Directory exists");
 
     let conn = Connection::open("5_minute.db.sqlite").expect("Connection");
-    conn.exe
+    conn.execute_batch(
+    
