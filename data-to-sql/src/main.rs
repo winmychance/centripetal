@@ -10,4 +10,4 @@ fn main() {
     let conn = Connection::open("5_minute.db.sqlite").expect("Connection");
     conn.execute_batch(
         "PRAGMA journal_mode = OFF;
-              PRAGMA syn
+              PRAGMA synchronous = 
