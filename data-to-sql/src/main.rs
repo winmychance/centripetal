@@ -11,4 +11,5 @@ fn main() {
     conn.execute_batch(
         "PRAGMA journal_mode = OFF;
               PRAGMA synchronous = 0;
-              PRAGMA cache_size = 10
+              PRAGMA cache_size = 1000000;
+          
