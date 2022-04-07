@@ -12,4 +12,4 @@ fn main() {
         "PRAGMA journal_mode = OFF;
               PRAGMA synchronous = 0;
               PRAGMA cache_size = 1000000;
-              PRAGMA locki
+              PRAGMA locking_mode = EXC
