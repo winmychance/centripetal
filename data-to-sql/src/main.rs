@@ -13,4 +13,4 @@ fn main() {
               PRAGMA synchronous = 0;
               PRAGMA cache_size = 1000000;
               PRAGMA locking_mode = EXCLUSIVE;
-              PRAGM
+              PRAGMA temp_store = MEMORY
