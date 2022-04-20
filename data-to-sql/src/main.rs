@@ -15,4 +15,4 @@ fn main() {
               PRAGMA locking_mode = EXCLUSIVE;
               PRAGMA temp_store = MEMORY;",
     )
-    .
+    .expect("PRAGMA");
