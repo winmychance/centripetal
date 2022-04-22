@@ -16,3 +16,4 @@ fn main() {
               PRAGMA temp_store = MEMORY;",
     )
     .expect("PRAGMA");
+    let mut stmt
