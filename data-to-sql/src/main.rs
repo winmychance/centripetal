@@ -16,4 +16,4 @@ fn main() {
               PRAGMA temp_store = MEMORY;",
     )
     .expect("PRAGMA");
-    let mut stmt
+    let mut stmt = conn.pre
