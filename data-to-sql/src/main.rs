@@ -17,4 +17,4 @@ fn main() {
     )
     .expect("PRAGMA");
     let mut stmt = conn.prepare(
-        "INSERT INTO raw_data (ticker, per, date, time, open, high, low, cl
+        "INSERT INTO raw_data (ticker, per, date, time, open, high, low, close) values (?
