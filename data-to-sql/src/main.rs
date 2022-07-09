@@ -20,4 +20,5 @@ fn main() {
         "INSERT INTO raw_data (ticker, per, date, time, open, high, low, close) values (?1, ?2, ?3 , ?4, ?5, ?6, ?7, ?8)",
        ).expect("insert");
     for entry in WalkDir::new(parent_path.clone()) {
-        let entry = entry.u
+        let entry = entry.unwrap();
+        
