@@ -21,4 +21,4 @@ fn main() {
        ).expect("insert");
     for entry in WalkDir::new(parent_path.clone()) {
         let entry = entry.unwrap();
-        if entry.fil
+        if entry.file_type().is_dir
