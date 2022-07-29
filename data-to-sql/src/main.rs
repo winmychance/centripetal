@@ -23,4 +23,5 @@ fn main() {
         let entry = entry.unwrap();
         if entry.file_type().is_dir() {
             continue
-   
+        }
+      
