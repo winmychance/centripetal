@@ -24,4 +24,4 @@ fn main() {
         if entry.file_type().is_dir() {
             continue
         }
-        let nyse_full= entr
+        let nyse_full= entry.path().as_o
