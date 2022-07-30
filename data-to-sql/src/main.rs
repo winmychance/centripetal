@@ -24,4 +24,4 @@ fn main() {
         if entry.file_type().is_dir() {
             continue
         }
-        let nyse_
+        let nyse_full= entr
