@@ -24,4 +24,5 @@ fn main() {
         if entry.file_type().is_dir() {
             continue
         }
-        let nyse_full= entry.path().as_os_str().to_str().expect("Full path a string").t
+        let nyse_full= entry.path().as_os_str().to_str().expect("Full path a string").to_owned() ;
+        /
