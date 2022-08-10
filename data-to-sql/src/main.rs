@@ -25,4 +25,5 @@ fn main() {
             continue
         }
         let nyse_full= entry.path().as_os_str().to_str().expect("Full path a string").to_owned() ;
-        //let new_name = nyse_full.clone() + ".cs
+        //let new_name = nyse_full.clone() + ".csv";
+       
