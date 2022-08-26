@@ -28,4 +28,4 @@ fn main() {
         //let new_name = nyse_full.clone() + ".csv";
         //fs::rename(nyse_full.clone(), new_name.clone()).expect("fs rename");
         let mut reader = csv::Reader::from_path(nyse_full.clone()).expect("Read file");
-   
+        print!
