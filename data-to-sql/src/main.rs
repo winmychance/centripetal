@@ -30,4 +30,4 @@ fn main() {
         let mut reader = csv::Reader::from_path(nyse_full.clone()).expect("Read file");
         print!("reading {}", nyse_full);
         conn.execute(
-            "Create table if 
+            "Create table if not Exists raw
