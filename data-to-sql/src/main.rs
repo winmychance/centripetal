@@ -30,4 +30,5 @@ fn main() {
         let mut reader = csv::Reader::from_path(nyse_full.clone()).expect("Read file");
         print!("reading {}", nyse_full);
         conn.execute(
-            "Create table if not Exists raw_data (ticker text, per text, date real, time real, open real, high real, low real, close re
+            "Create table if not Exists raw_data (ticker text, per text, date real, time real, open real, high real, low real, close real)",
+      
