@@ -33,4 +33,4 @@ fn main() {
             "Create table if not Exists raw_data (ticker text, per text, date real, time real, open real, high real, low real, close real)",
             [],
         ).expect("Table created");
-        pr
+        print!("read {}", nys
