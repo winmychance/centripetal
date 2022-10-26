@@ -34,4 +34,4 @@ fn main() {
             [],
         ).expect("Table created");
         print!("read {}", nyse_full);
-       
+        for r in reader
