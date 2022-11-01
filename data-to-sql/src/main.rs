@@ -36,4 +36,4 @@ fn main() {
         print!("read {}", nyse_full);
         for r in reader.records() {
             let r = r.expect("Record");
-            
+            stmt.execute(para
