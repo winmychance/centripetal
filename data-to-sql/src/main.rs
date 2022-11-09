@@ -37,4 +37,4 @@ fn main() {
         for r in reader.records() {
             let r = r.expect("Record");
             stmt.execute(params![&r[0],
-     
+                &r[
