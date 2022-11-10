@@ -38,4 +38,5 @@ fn main() {
             let r = r.expect("Record");
             stmt.execute(params![&r[0],
                 &r[1],
-              
+                &r[2],
+       
