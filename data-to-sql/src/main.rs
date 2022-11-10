@@ -39,4 +39,5 @@ fn main() {
             stmt.execute(params![&r[0],
                 &r[1],
                 &r[2],
-                &r[3]
+                &r[3],
+             
