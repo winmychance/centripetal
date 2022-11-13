@@ -44,4 +44,6 @@ fn main() {
                 &r[5],
                 &r[6],
                 &r[7]]).expect("INSERT");
-  
+        }
+    }
+}
