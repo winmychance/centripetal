@@ -658,3 +658,14 @@ dependencies = [
  "combine",
  "itoa",
  "percent-encoding",
+ "ryu",
+ "sha1_smol",
+ "url",
+]
+
+[[package]]
+name = "redox_syscall"
+version = "0.2.16"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fb5a58c1855b4b6819d59012155603f0b22ad30cad752600aadfcb695265519a"
+dependencies = [
