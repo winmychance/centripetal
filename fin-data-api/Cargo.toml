@@ -1,4 +1,6 @@
 [package]
 name = "fin-data-api"
 version = "0.1.0"
-edition = "202
+edition = "2021"
+
+# See more k
