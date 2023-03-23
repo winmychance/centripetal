@@ -10,4 +10,4 @@ rusqlite = "*"
 warp="*"
 serde_json = "*"
 url = "*"
-tokio = {version = "*", features = ["rt", "rt-
+tokio = {version = "*", features = ["rt", "rt-multi-t
