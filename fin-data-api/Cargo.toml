@@ -12,4 +12,4 @@ serde_json = "*"
 url = "*"
 tokio = {version = "*", features = ["rt", "rt-multi-thread", "macros"]}
 futures = "*"
-serde = { 
+serde = { version="*", 
