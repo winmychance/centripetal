@@ -11,4 +11,5 @@ warp="*"
 serde_json = "*"
 url = "*"
 tokio = {version = "*", features = ["rt", "rt-multi-thread", "macros"]}
-futures = 
+futures = "*"
+serde = { 
