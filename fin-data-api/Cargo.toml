@@ -12,4 +12,6 @@ serde_json = "*"
 url = "*"
 tokio = {version = "*", features = ["rt", "rt-multi-thread", "macros"]}
 futures = "*"
-serde = { version="*", features = ["derive"
+serde = { version="*", features = ["derive"] }
+redis = "*"
+toki
