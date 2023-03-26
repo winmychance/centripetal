@@ -14,4 +14,4 @@ tokio = {version = "*", features = ["rt", "rt-multi-thread", "macros"]}
 futures = "*"
 serde = { version="*", features = ["derive"] }
 redis = "*"
-toki
+tokio-rusqlite = "*
