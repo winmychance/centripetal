@@ -20,3 +20,19 @@ struct RawTickerData {
     per: String,
     date: f64,
     time: f64,
+    open: f64,
+    high: f64,
+    low: f64,
+    close: f64,
+}
+
+async fn connect() -> redis::RedisResult<redis::Connection> {
+    let client = redis::Client::open("redis://localhost:6379")?;
+    let con = client.get_connection().expect("Get redis");
+    Ok(con)
+}
+
+async fn data_route(ticker: String) -> std::result::Result<impl warp::Reply, Infallible> {
+    let mut con = connect().await.expect("connected");
+    let t = ticker.clone();
+    if let Ok(json) = con.hget::<String, String, String>(ticker.clone(), "data".to_string()) {
