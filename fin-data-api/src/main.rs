@@ -52,3 +52,16 @@ async fn data_route(ticker: String) -> std::result::Result<impl warp::Reply, Inf
             Ok(RawTickerData {
                 ticker: row.get(0).expect("ticker Name Exists"),
                 per: row.get(1).expect("per Exists"),
+                date: row.get(2).expect("date Exists"),
+                time: row.get(3).expect("time Exists"),
+                open: row.get(4).expect("open Exists"),
+                high: row.get(5).expect("high Exists"),
+                low: row.get(6).expect("low Exists"),
+                close: row.get(7).expect("close Exists"),
+            })
+        }).expect("Map rows").enumerate().map(|(_, m)| {
+            return m.expect("Record exists")
+        });
+        let records: Vec<RawTickerData>  = ticker_data.collect();
+        let res_json = json!(records);
+        con.hset::<String, String, String, ()>(ticker.clone(), "data".to_string(), res_json.to_string().clone()).expect("set");
