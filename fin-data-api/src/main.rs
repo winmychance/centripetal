@@ -36,3 +36,19 @@ async fn data_route(ticker: String) -> std::result::Result<impl warp::Reply, Inf
     let mut con = connect().await.expect("connected");
     let t = ticker.clone();
     if let Ok(json) = con.hget::<String, String, String>(ticker.clone(), "data".to_string()) {
+        return Ok(warp::reply::with_status(
+            format!("{}", json),
+            http::StatusCode::OK
+        ));
+    }
+    
+    let conn = get_conn().await;
+    let res_json = conn
+        .call(move |conn| {
+            let mut stmt = conn.prepare(
+            "SELECT ticker, per, date, time, open, high, low, close from raw_data where ticker = ?1;",
+        ).expect("Prepared select");
+        let ticker_data = stmt.query_map([t.clone()], |row| {
+            Ok(RawTickerData {
+                ticker: row.get(0).expect("ticker Name Exists"),
+                per: row.get(1).expect("per Exists"),
