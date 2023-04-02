@@ -65,3 +65,15 @@ async fn data_route(ticker: String) -> std::result::Result<impl warp::Reply, Inf
         let records: Vec<RawTickerData>  = ticker_data.collect();
         let res_json = json!(records);
         con.hset::<String, String, String, ()>(ticker.clone(), "data".to_string(), res_json.to_string().clone()).expect("set");
+        res_json.to_string()
+    }).await;
+    
+    Ok(warp::reply::with_status(
+        format!("{}", res_json),
+        http::StatusCode::OK
+    ))
+}
+
+async fn get_conn() -> Connection {
+    let current_dir = std::env::current_dir().expect("Current Directory Exists");
+    let db_path_obj = current_dir.parent().expect("Parent exists").join("data-to-sql");
