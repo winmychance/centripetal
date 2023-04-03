@@ -77,3 +77,23 @@ async fn data_route(ticker: String) -> std::result::Result<impl warp::Reply, Inf
 async fn get_conn() -> Connection {
     let current_dir = std::env::current_dir().expect("Current Directory Exists");
     let db_path_obj = current_dir.parent().expect("Parent exists").join("data-to-sql");
+    let db_path = db_path_obj.to_str().expect("Directory exists");
+    let db_full= db_path.to_string() + "/5_minute.db.sqlite";
+    let conn = Connection::open(db_full.clone()).await.expect("Connection successs");
+    conn
+}
+
+async fn all_ticker_route() -> std::result::Result<impl warp::Reply, Infallible> {
+    let conn = get_conn().await;
+    
+    let res_json = conn
+    .call(move |conn| {
+        let mut stmt = conn.prepare(
+        "SELECT distinct ticker from raw_data;",
+    ).expect("Prepared select");
+    let ticker_data = stmt.query_map([], |row| {
+        Ok(Ticker {
+            ticker: row.get(0).expect("ticker Name Exists"),
+        })
+    }).expect("Map rows").enumerate().map(|(_, m)| {
+        return m.expect("Record exists")
