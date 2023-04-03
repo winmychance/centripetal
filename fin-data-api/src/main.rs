@@ -97,3 +97,17 @@ async fn all_ticker_route() -> std::result::Result<impl warp::Reply, Infallible>
         })
     }).expect("Map rows").enumerate().map(|(_, m)| {
         return m.expect("Record exists")
+    });
+    let records: Vec<Ticker>  = ticker_data.collect();
+    let res_json = json!(records);
+    res_json.to_string()
+}).await;
+
+Ok(warp::reply::with_status(
+    format!("{}", res_json),
+    http::StatusCode::OK
+))
+}
+
+#[tokio::main]
+async fn main() {
