@@ -111,3 +111,16 @@ Ok(warp::reply::with_status(
 
 #[tokio::main]
 async fn main() {
+    let routes = warp::get() 
+        .and(warp::path("tick"))
+        .and(warp::path::param())
+        .and_then(data_route);
+        
+    let r2 = warp::get() 
+            .and(warp::path("tickers"))
+            .and_then(all_ticker_route);
+
+    warp::serve(routes.or(r2))
+    .run(([127, 0, 0, 1], 3030))
+    .await;
+} 
